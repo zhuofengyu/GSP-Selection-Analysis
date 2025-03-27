@@ -1,22 +1,28 @@
-This is the repository providing the R code for data analysis for the Global Sewage Project (GSP).
+Global Sewage Project (GSP) Data Analysis Repository
 
-v1.0.0-atb
-R code used for the visualization of the antibiotic concentrations.
+This repository contains the comprehensive analytical codebase used for the Global Sewage Project (GSP) data analysis. 
 
-v1.0.0-bic
-R code used for the visualization of the biocide concentrations.
+Below is a structured overview of the repository contents, organized by release tags:
 
-v1.0.0-corr
-R code used for the correlation analysis, using the correlation between antibiotic concentration and selection potential as an example here.
+Release Tag: v1.0.0-atb
+Description: R scripts for antibiotic concentration visualization, including geospatial distribution plots and concentration comparative analyses.
 
-v1.0.0-mic
-R code used for extracting the 1%MIC for E. coli from the EUCAST database, version 2024_05_13.
+Release Tag: v1.0.0-bic
+Description: R scripts for biocide concentration visualization, including distribution patterns across geographical regions.
 
-v1.0.0-negbin
-R code used for the negative binomial regression models, data transformations, and visualization of the selection potentials.
+Release Tag: v1.0.0-corr
+Description: R scripts for correlation analysis between measured parameters, including antibiotic concentrations and selection potential relationships.
 
-v1.0.0-nwc
-R code used for the visualization of the selection potentials for the natural wastewater community and the synthetic E. coli community.
+Release Tag: v1.0.0-mic
+Description: R scripts for extracting and processing 1% Minimum Inhibitory Concentration (MIC) data for Escherichia coli from the EUCAST database (version 2024_05_13).
 
-v1.0.0-wpse
-R code used for the statistics and visualization of the selection potentials in the wastewater processing and storage effect test.
+Release Tag: v1.0.0-negbin
+Description: R scripts implementing negative binomial regression models with data transformation functions and visualization tools for analyzing selection potentials.
+
+Release Tag: v1.0.0-nwc
+Description: R scripts for comparative visualization of selection potentials between natural wastewater communities and synthetic Escherichia coli communities.
+
+Release Tag: v1.0.0-wpse
+Description: R scripts for statistical analysis and visualization of selection potentials in the wastewater processing and storage effect experiments.
+
+Each module includes detailed documentation and example datasets to ensure reproducibility of the analyses presented in our publication.
